@@ -1,0 +1,28 @@
+.like-btn{ 
+    text-decoration: none;
+    font-size: 40px; 
+    cursor: pointer;
+    transition: color 0.3s ease;
+    color: red; 
+} 
+
+.like-btn.active a{ 
+    color: red;
+}
+.like-btn:hover {
+    color: red;
+}
+.text {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* number of lines to show */
+            line-clamp: 2; 
+    -webkit-box-orient: vertical;
+ }
+
+.img-size {
+    max-inline-size: 100%;
+    block-size: auto;
+    object-fit: cover;
+    inline-size: 100%;
+  }
